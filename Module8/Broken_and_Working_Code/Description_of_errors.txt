@@ -1,0 +1,55 @@
+Title is not formatted properly
+    added <h1> tag
+
+Instructions panel should not exist
+    deleted lines 22-35
+
+Tab spacing in the <div> classes is out of alignment
+    Fixed by adding tab spacing in open and close tags
+
+About Boo Panel heading was missing text
+    modified to say "About Boo The Dog"
+
+About Boo section is not formatted with paragraphs
+    added <p> tags to separate the content
+
+The link in the Bio section to wikipedia points is broken - missing the href link
+    added the correct url - https://en.wikipedia.org/wiki/Boo_(dog)
+
+The image is missing in the adjacent column to the Bio column
+    Corrected the <div> tab spacing
+
+
+The Boo Fact and the Boo Rules/missing pic are swapped in order
+and The List of Boo's Fav things is swapped with the puppy pic
+    Pulled out the Factbutton div class section 
+        Fixed the tab alignment
+        Added the li tags to the list of Boo's fav things
+    pasted the panels for Boo Facts and Boo's fav things below the Boo buttons
+    
+The panels and buttons for the Grow/Shrink and the Color changes are reversed
+    Fixed tab alignment
+    Fixed order of Orange/Pink/Green
+    Fixed the Funtext to say "Boo The Dog Rules!"
+    Added the missing div close tag
+
+The buttons above the swapped panels are not working - updated the js file
+    Added missing comment - // When the factButton is clicked...
+    Added missing comment describing the facts array
+    Inserted "" in the facts array to separate the facts
+    Added missing comment about the array holding the facts 
+    Added comments to the rest of the buttons to explain what the button is supposed to dog
+
+
+    Buttons were not working -> used Devtools to find that the <script> pointer was incorrect
+        fixed with "<script type="text/javascript" src="logic.js"></script>"
+    
+    Fixed tab alignment issues on button functions
+    Boo The Dog Rules! buttons were not functioning with proper Color   
+        identified the issue in HTML file and corrected the "button id"s to associate properly with Color
+
+    Added a line b/w the size and color buttons
+    The arg? click was missing "" around both js functions
+
+Missing comment on Javascript file
+    added the comment line
